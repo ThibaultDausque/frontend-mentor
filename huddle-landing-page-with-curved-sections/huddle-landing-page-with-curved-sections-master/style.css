@@ -1,0 +1,280 @@
+h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+p{
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    width: 500px;
+    text-align: center;
+}
+
+h2{
+    font-family: "Poppins", serif;
+    font-weight: 100;
+
+}
+
+header{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+
+#Try{
+    
+    border-radius: 40px;
+    height: 30px;
+    border-color: hsl(322, 100%, 66%);
+    background-color: white;
+    color: hsl(322, 100%, 66%);
+    font-family: "Poppins", sans-serif;
+    border: solid;
+    position: relative;
+    left: 1100px;
+}
+
+#Get{
+    border-radius: 40px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: 700;
+}
+
+#huddle{
+    left: 50px;
+}
+
+#head{
+    position: absolute;
+    top: 20px;
+}
+
+#mid{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#mockups{
+    margin-top: 100px;
+    margin-bottom: 200px;
+    width: 800px;
+}
+
+#community{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 300px;
+    margin-bottom: 100px;  
+}
+
+#commu>h1{
+    font-size: 4rem;
+    margin: 10px;
+}
+
+
+#grow{
+    display: grid;
+    grid-template-columns: auto auto; 
+    background-color: hsl(207, 100%, 98%);
+
+}
+
+#together{
+    position: relative;
+    width: 400px;
+}
+
+#grow_together{
+    position: relative;
+    top: 100px;
+}
+
+#grow_together>p{
+    font-family: "Poppins";
+    font-weight: 300;
+    text-align: start;
+    margin-left: 90px;
+}
+
+#grow_together>h1{
+    font-family: "Poppins";
+    font-weight: 700;
+    margin-left: 90px;
+}
+
+#flow{
+    position: relative;
+    width: 500px;
+    margin-top: 100px;
+    left: 25px;
+
+}
+
+#conversation{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 400px;
+
+}
+
+#text{
+    position: relative;
+    margin-top: 140px;
+}
+
+
+#text>p{
+    position: relative;
+    text-align: start;
+    
+}
+
+#text2{
+    position: relative;
+    margin-left: 50px;
+}
+
+#text2>p{
+    position: relative;
+    text-align: start;
+}
+
+#users{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: hsl(207, 100%, 98%);
+}
+
+#users>img{
+    width: 500px;
+}
+
+
+#ready{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+
+#Free{
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: 700;
+}
+
+#top{
+    position: relative;
+    top: 10px;
+    width: 100%;
+}
+
+#bottom{
+    width:100%;
+}
+
+
+
+#top2{
+    position: relative;
+    top: 10px;
+    width: 100%;
+    margin-top: 400px;
+}
+
+#bottom2{
+    width:100%;
+}
+
+#top3{
+    position: relative;
+    width:100%;
+    top: 10px;
+}
+
+#newsletter{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 50px;
+    bottom: 200px;
+}
+
+#info>p{
+    position: relative;
+    text-align: start;
+    width: 400px;
+    color: white;
+    bottom: 40px;
+}
+
+#info>h1{
+    position: relative;
+    color: white;
+    bottom: 30px;
+}
+
+#value{
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+#mail{
+    margin-top: 50px;
+}
+
+footer{
+    background-color: hsl(192, 100%, 9%);
+}
+
+
+@media screen and (max-width: 480px){
+    #head{
+        flex-direction: column;
+        width: 90%;
+        display: block;
+    }
+
+    #mid{
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    p{
+        width: 90%;
+    }
+
+    #community{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
